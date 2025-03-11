@@ -1,17 +1,17 @@
 import { Router } from "express";
-import { getUser, getUserSample, getUserWithId, getUserWithIDQuery } from "./handlers/users.handler";
+import * as User from "./handlers/users.handler";
 const router = Router();
 
 // api/users/index site
-router.get('/index', getUserWithIDQuery);
+router.get('/index', User.getUserWithIDQuery);
 
 // /api/users
-router.get('/', getUser);
+router.get('/', User.getUser);
 
 // /api/users/123
-router.get('/:id', getUserWithId);
+router.get('/:id', User.getUserWithId);
 
 // /api/users/123?limit
-router.get('/:id/', getUserWithIDQuery);
+router.get('/:id/', User.getUserWithIDQuery);
 
 export default router
