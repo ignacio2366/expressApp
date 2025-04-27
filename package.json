@@ -17,7 +17,7 @@
     "description": "",
     "main": "/src/index.ts",
     "build": "tsc --build",
-    "start": "tsc --build && dotenv && node ./dist/src/index.js",
+    "start": "tsc --build && node ./dist/src/index.js",
     "start:dev": "nodemon ./src/index.ts"
   }
 }
