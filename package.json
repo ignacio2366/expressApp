@@ -10,6 +10,12 @@
     "express": "^4.21.2"
   },
   "scripts": {
+    "author": "mark",
+    "license": "ISC",
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
     "build": "tsc --build",
     "start": "tsc --build && dotenv && node ./dist/src/index.js",
     "start:dev": "nodemon ./src/index.ts"
