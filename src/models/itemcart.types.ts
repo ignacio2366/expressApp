@@ -1,5 +1,5 @@
 
-export interface ItemCartTypes {
+export interface HomeNewsCollectionsTypes {
     cartNo: number | undefined | null,
     brand: string;
     review: number | string;
@@ -9,6 +9,4 @@ export interface ItemCartTypes {
     newitem: boolean;
     sold: number;
 
-    // discountprice: number;
-    // itemremaining:number
 }
