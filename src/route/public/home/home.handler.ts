@@ -10,7 +10,7 @@ export const HomeHeader = (req: Request, res: Response) => {
         title: "You're Snikers Collections",
         caption:
             "This project is focus for Payment integration of stripe and others. Don't expect a bigs project feature",
-        imageurl: "https://raw.githubusercontent.com/ignacio2366/snikersweb/refs/heads/main/src/assets/images/Group-86.png?token=GHSAT0AAAAAAC4JOTBVJYJUEMYUKSMJCZGCZ6NUVWA",
+        imageurl: "https://snikersweb-git-main-ignacio2366s-projects.vercel.app/images/Group-86.png",
         date: date.getDate().toString(),
     };
 
