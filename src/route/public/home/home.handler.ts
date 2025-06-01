@@ -20,7 +20,7 @@ export const HomeHeader = (req: Request, res: Response) => {
     const Mock: HomeHeaderTypes = {
         title: "You're Snikers Collections",
         caption:
-            "This project is focus for Payment integration of stripe and others. Don't expect a bigs project feature",
+            "This project is focus for Payment integration of STRIPE and others. Don't expect a bigs project feature",
         imageurl: "https://snikersweb-git-main-ignacio2366s-projects.vercel.app/images/Group-86.png",
         date: date.getMonth().toString(),
     };
@@ -94,7 +94,7 @@ export const HomeNewsCollections = (req: Request, res: Response) => {
 
 export const HomeWhatsNews = (req: Request, res: Response) => {
     const MOCK: ApiWhatsNewTypes = {
-        caption: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere corporis, voluptatibus repellendus veritatis amet quam fuga a aperiam nemo obcaecati totam molestias tempore facilis aliquam officia non! Aliquid esse est dolorum illo magnam vitae necessitatibus expedita enim voluptatibus, ipsam suscipit, consequatur cupiditate debitis saepe aut.",
+        caption: "This Sites Purpose is for STRIPE Integration. Facere corporis, voluptatibus repellendus veritatis amet quam fuga a aperiam nemo obcaecati totam molestias tempore facilis aliquam officia non! Aliquid esse est dolorum illo magnam vitae necessitatibus expedita enim voluptatibus, ipsam suscipit, consequatur cupiditate debitis saepe aut.",
         imgeurl: "https://snikersweb-git-main-ignacio2366s-projects.vercel.app/images/Group-86.png"
     }
 
